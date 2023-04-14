@@ -18,7 +18,7 @@ const KawanModal = ({ slides }: any) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const diapos = slides.slidesKawan;
   return (
-    <div className="flex place-items-center content-center justify-center rounded bg-black  transition delay-150 duration-300  ease-in-out hover:-translate-y-1 hover:scale-110 lg:hidden ">
+    <div className="flex cursor-pointer place-items-center content-center justify-center rounded bg-black  transition delay-150 duration-300  ease-in-out hover:-translate-y-1 hover:scale-110 lg:hidden ">
       <h3
         onClick={onOpen}
         className={clsx(

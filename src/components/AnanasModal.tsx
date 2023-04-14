@@ -20,7 +20,7 @@ const AnanasModal = ({ slides }: any) => {
   const diapos = slides.slidesAnanas;
 
   return (
-    <div className="btn-div flex place-items-center  content-center justify-center rounded transition  delay-150 duration-300 ease-in-out   hover:-translate-y-1 hover:scale-110 lg:hidden ">
+    <div className="btn-div flex cursor-pointer place-items-center  content-center justify-center rounded transition  delay-150 duration-300 ease-in-out   hover:-translate-y-1 hover:scale-110 lg:hidden ">
       <h3
         onClick={onOpen}
         className={clsx(
@@ -72,7 +72,7 @@ const AnanasModal = ({ slides }: any) => {
                     </li>
                     <li>une terrasse avec un coin repas et un hamac</li>
                   </ul>
-                  <div className="roudend mt-2 bg-gray-200 text-center p-2">
+                  <div className="roudend mt-2 bg-gray-200 p-2 text-center">
                     <p>Parking</p>
                     <p>Wifi</p>
                     <p>Accès à la piscine et au barbecue</p>

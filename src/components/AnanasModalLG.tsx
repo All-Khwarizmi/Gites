@@ -22,7 +22,7 @@ const AnanasModalLG = ({ slides }: any) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const diapos = slides.slidesAnanas;
   return (
-    <div className="w-50 flex place-items-center content-center justify-center  rounded bg-black transition  delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+    <div className="w-50 flex cursor-pointer place-items-center content-center justify-center  rounded bg-black transition  delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
       <h3
         onClick={onOpen}
         className={clsx(

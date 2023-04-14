@@ -15,7 +15,7 @@ const ModaliteModal = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <div className="flex place-items-center content-center justify-center rounded bg-black  transition delay-150 duration-300  ease-in-out hover:-translate-y-1 hover:scale-110 lg:hidden ">
+    <div className="flex cursor-pointer place-items-center content-center justify-center rounded bg-black  transition delay-150 duration-300  ease-in-out hover:-translate-y-1 hover:scale-110 lg:hidden ">
       <h3
         onClick={onOpen}
         className={clsx(
@@ -52,7 +52,7 @@ const ModaliteModal = () => {
                     gîtes Palmier et Kawan. Nous contacter pour le supplément.
                   </p>
                   <br />
-                   <p className="px-2">
+                  <p className="px-2">
                     Premier dîner et petit-déjeuner offerts à partir d’une
                     semaine de location et pour les clients en provenance
                     directe de la métropole.{" "}

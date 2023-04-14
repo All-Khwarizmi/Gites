@@ -15,7 +15,7 @@ const ModaliteModalLG = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <div className="w-50 flex hidden place-items-center content-center justify-center rounded  bg-black transition delay-150  duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 lg:block ">
+    <div className="w-50 flex hidden place-items-center cursor-pointer content-center justify-center rounded  bg-black transition delay-150  duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 lg:block ">
       <h3
         onClick={onOpen}
         className={clsx(

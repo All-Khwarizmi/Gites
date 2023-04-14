@@ -18,7 +18,7 @@ const PalmierModal = ({ slides }: any) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const diapos = slides.slidesPalmier;
   return (
-    <div className="btn-div flex place-items-center  content-center justify-center rounded transition  delay-150 duration-300 ease-in-out   hover:-translate-y-1 hover:scale-110 lg:hidden ">
+    <div className="btn-div flex cursor-pointer place-items-center content-center justify-center rounded transition  delay-150 duration-300 ease-in-out   hover:-translate-y-1 hover:scale-110 lg:hidden ">
       <h3
         onClick={onOpen}
         className={clsx(
