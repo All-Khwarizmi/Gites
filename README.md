@@ -44,5 +44,3 @@ We used **@react-google-maps/api** that provides very simple bindings to the goo
 - [tRPC](https://trpc.io)
 
 
-aubert.celest@wanadoo.fr 
-mdp : Vascohalfy1!
